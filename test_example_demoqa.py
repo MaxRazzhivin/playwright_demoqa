@@ -31,4 +31,4 @@ def test_text_box(page):
     expect(page.locator('#output #currentAddress')).to_have_text('Current Address :London is a capital of Great Britain')
     expect(page.locator('#output #permanentAddress')).to_have_text('Permananet Address :pam-pam-pam')
 
-    time.sleep(10)
+    time.sleep(5)

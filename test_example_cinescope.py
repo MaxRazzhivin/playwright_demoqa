@@ -33,4 +33,4 @@ def test_cinescope_registration(page):
     page.wait_for_url('https://dev-cinescope.coconutqa.ru/login')
     expect(page.get_by_text('Подтвердите свою почту')).to_be_visible(visible=True)
 
-    time.sleep(10)
+    time.sleep(3)
